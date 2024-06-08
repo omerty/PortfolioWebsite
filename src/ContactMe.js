@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./styles.css";
 import "remixicon/fonts/remixicon.css";
 import { ReactTyped as Typed } from 'react-typed';
-
 
 export default function ContactMe() {
     return (
@@ -14,7 +13,7 @@ export default function ContactMe() {
             </div>
             <div className = "ContainerButtons">
                 <div className = "Linkedin">
-                    <a href="#" className="button">
+                    <a href="https://www.linkedin.com/in/omer-mohiuddin-5a1376204/" className="button">
                         <div className="button__content">
                             <span className="button__text">Linkedin</span>
                             <i class="ri-linkedin-box-line"></i>
@@ -34,7 +33,7 @@ export default function ContactMe() {
                     </a>
                 </div>
                 <div className = "Github">
-                    <a href="#" className="buttonGit">
+                    <a href="https://github.com/omerty" className="buttonGit">
                         <div className="button__contentGit">
                             <span className="button__textGit">GitHub</span>
                             <i class="ri-github-line"></i>
@@ -54,8 +53,8 @@ export default function ContactMe() {
                     </a>
                 </div>
 
-                <div className = "Email">
-                    <a href="#" className="buttonEm">
+                {/* <div className = "Email">
+                    <a href="mailto:mdomermohi@gmail.com" className="buttonEm">
                         <div className="button__contentEm">
                             <span className="button__textEm">Email</span>
                             <i class="ri-mail-send-line"></i>
@@ -73,7 +72,7 @@ export default function ContactMe() {
                         
                         <div className="button__shadowEm"></div>
                     </a>
-                </div>
+                </div> */}
 
                 <div className = "ContPar">
                     <Typed

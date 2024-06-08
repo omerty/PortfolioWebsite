@@ -16,10 +16,10 @@ export default function Projects() {
                     <img src="assets/img/grad1.png" alt="image" className="card__img" />
 
                     <div className="card__data">
-                        <a href = "" className="NavGit">
+                        <a href = "https://github.com/omerty/Netflix--Cloone-Beta-/blob/main/README.md" className="NavGit">
                             <i class="ri-github-line"></i>
                         </a>
-                        <a href = "" className="NavLink">
+                        <a href = "https://github.com/omerty/Netflix--Cloone-Beta-/blob/main/netflix-clone/src/App.js" className="NavLink">
                             <i class="ri-external-link-fill"></i>
                         </a>
                         <h3 className="card__title">Netflix Clone <br /></h3>
@@ -31,10 +31,10 @@ export default function Projects() {
                     <img src="assets/img/grad2.png" alt="image" className="card__img1" />
 
                     <div className="card__data">
-                        <a href = "" className="NavGit1">
+                        <a href = "https://github.com/omerty/SimpleMachineLearning/blob/main/README.md" className="NavGit1">
                             <i class="ri-github-line"></i>
                         </a>
-                        <a href = "" className="NavLink1">
+                        <a href = "https://github.com/omerty/SimpleMachineLearning/blob/main/chatbot.py" className="NavLink1">
                             <i class="ri-external-link-fill"></i>
                         </a>
                         <h3 className="card__title1">Chat-Bot <br /></h3>
@@ -46,10 +46,10 @@ export default function Projects() {
                     <img src="assets/img/grade3.png" alt="image" className="card__img3" />
 
                     <div className="card__data">
-                        <a href = "" className="NavGit3">
+                        <a href = "https://github.com/omerty/-Exploring-the-Bitcoin-Cryptocurrency-Market-DataCamp-project" className="NavGit3">
                             <i class="ri-github-line"></i>
                         </a>
-                        <a href = "" className="NavLink3">
+                        <a href = "https://github.com/omerty/-Exploring-the-Bitcoin-Cryptocurrency-Market-DataCamp-project/blob/main/_Exploring-the-Bitcoin-Cryptocurrency-Market-DataCamp-project.ipynb" className="NavLink3">
                             <i class="ri-external-link-fill"></i>
                         </a>
                         <h3 className="card__title3">BitCoin Analysis <br /></h3>
@@ -63,10 +63,10 @@ export default function Projects() {
                     <img src="assets/img/grad4.png" alt="image" className="card__img2" />
 
                     <div className="card__data">
-                        <a href = "" className="NavGit2">
+                        <a href = "https://github.com/omerty/YellowPages-WebScrapper/blob/main/README.md" className="NavGit2">
                             <i class="ri-github-line"></i>
                         </a>
-                        <a href = "" className="NavLink2">
+                        <a href = "https://github.com/omerty/YellowPages-WebScrapper/blob/main/WebScrapper.py" className="NavLink2">
                             <i class="ri-external-link-fill"></i>
                         </a>
                         <h3 className="card__title2">&nbsp;Yellowpages <br/>Web Scrapper</h3>
@@ -78,10 +78,10 @@ export default function Projects() {
                     <img src="assets/img/grad5.png" alt="image" className="card__img4" />
 
                     <div className="card__data">
-                        <a href = "" className="NavGit4">
+                        <a href = "https://github.com/omerty/MosaicMaker" className="NavGit4">
                             <i class="ri-github-line"></i>
                         </a>
-                        <a href = "" className="NavLink4">
+                        <a href = "https://github.com/omerty/MosaicMaker/blob/main/mosaicMaker.py" className="NavLink4">
                             <i class="ri-external-link-fill"></i>
                         </a>
                         <h3 className="card__title4">Mosaic Maker <br /></h3>

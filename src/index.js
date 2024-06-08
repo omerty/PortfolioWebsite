@@ -12,10 +12,16 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Main />
-    <Animations />
+    <section id="Animation">
+      <Animations />
+    </section>
     <AboutMe />
-    <Projects />
-    <ContactMe />
+    <section id="projects">
+      <Projects />
+    </section>
+    <section id="contact">
+      <ContactMe />
+    </section>
   </React.StrictMode>
 );
 
