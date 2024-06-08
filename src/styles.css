@@ -553,6 +553,662 @@ a {
   transform: rotate(180deg);
 }
 
+.button {
+  position: relative;
+  transition: transform .4s;
+  width: 100px;
+}
+
+.button__content {
+  position: relative;
+  background: #0077B5;
+  padding: .75rem 0.5rem;
+  border-radius: 2rem;
+  border: 5px solid var(--black-color);
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  overflow: hidden;
+  width: 300px;
+  left: 39%;
+  top: -620px;
+  
+}
+
+.button__text {
+  font-weight: 700;
+}
+
+.button__icon {
+  font-size: 1.5rem;
+}
+
+.button__text, 
+.button__icon {
+  position: relative;
+  z-index: 2;
+}
+
+.ContLogo
+{
+  position: relative;
+  left: 39%;
+  top: -700px;
+  color: white;
+}
+
+.Cont_Logo
+{
+  color: white;
+}
+
+/* Reflection shapes */
+.button__reflection-1, 
+.button__reflection-2 {
+  width: 8px;
+  height: 120px;
+  background-color: var(--reflection-color);
+  rotate: 30deg;
+  position: absolute;
+  inset: 0;
+  top: 0;
+  left: -180%;
+  margin: auto;
+  transition: left .6s cubic-bezier(.2, .5, .2, 1.2);
+}
+
+.button__reflection-1::after {
+  content: "";
+  width: 26px;
+  height: 100%;
+  background-color: var(--reflection-color);
+  position: absolute;
+  top: -1rem;
+  left: 1.25rem;
+}
+
+.button__reflection-2::after {
+  content: "";
+  width: 40px;
+  height: 100%;
+  background-color: var(--reflection-color);
+  position: absolute;
+  top: -1rem;
+  left: .8rem;
+}
+
+/* Moving geometric shapes */
+.button img {
+  position: absolute;
+  opacity: 0;
+  transition: transform .5s, opacity .5s;
+}
+
+.button__star-1 {
+  width: 20px;
+  top: -640px;
+  left: 40%;
+  transform: rotate(48deg) scale(.1);
+}
+
+.button__star-2 {
+  width: 40px;
+  top: -645px;
+  left: 42%;
+  filter: invert(1);
+  transform: rotate(-48deg) scale(.1);
+}
+
+.button__circle-1, 
+.button__circle-2 {
+  width: 8px;
+}
+
+.button__circle-1 {
+  top: -8px;
+  left: 58px;
+  top: -645px;
+  left: 42%;
+  filter: invert(1);
+  transform: scale(.1);
+}
+
+.button__circle-2 {
+  right: 34px;
+  bottom: -8px;
+  filter: invert(1);
+  top: -645px;
+  left: 42%;
+  transform: scale(.1);
+}
+
+.button__diamond {
+  width: 18px;
+  filter: invert(1);
+  top: -555px;
+  left: 42%;
+  transform: scale(.1);
+}
+
+.button__triangle {
+  width: 30px;
+  filter: invert(1);
+  top: -555px;
+  left: 45%;
+  transform: rotate(-48deg) scale(.1);
+}
+
+/* Gradient shadow */
+.button__shadow {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: white;
+  padding: 1.25rem 3rem;
+  border-radius: 4rem;
+  border: 3px solid var(--black-color);
+  z-index: -1;
+  transition: transform .3s;
+  width: 300px;
+  left: 39%;
+  top: -620px;
+}
+
+/* View shadow gradient */
+.button:hover .button__shadow {
+  transform: translate(-.5rem, .5rem);
+}
+
+/* Move reflection */
+.button:hover .button__reflection-1 {
+  left: 120%;
+}
+
+.button:hover .button__reflection-2 {
+  left: -70%;
+}
+
+/* View geometric shapes */
+.button:hover {
+  transform: rotate(-4deg) scale(1.1);
+}
+
+.button:hover img {
+  opacity: 1;
+}
+
+.button:hover .button__star-1 {
+  transform: scale(1.1);
+  transition-delay: .1s;
+  filter: invert(1)
+}
+
+.button:hover .button__star-2 {
+  transform: scale(1.1);
+}
+
+.button:hover .button__circle-1 {
+  transform: translateY(-8px) scale(1.1);
+  transition-delay: .1s;
+}
+
+.button:hover .button__circle-2 {
+  transform: translate(-20px, 20px) scale(1.1);
+}
+
+.button:hover .button__diamond {
+  transform: translateY(7px) rotate(-24deg) scale(1.1);
+}
+
+.button:hover .button__triangle {
+  transform: rotate(-12deg) scale(1.1);
+}
+
+
+.ContPar
+{
+  position: relative;
+  top: -780px;
+  left: 55%;
+  color: white;
+
+}
+
+
+.ContainerButtons
+{
+  position: relative;
+  top: -40px;
+}
+
+/* GITHUB BUTTON */
+
+
+.buttonGit {
+  position: relative;
+  transition: transform .4s;
+  width: 100px;
+}
+
+.button__contentGit {
+  position: relative;
+  background: #DA70D6;
+  padding: .75rem 0.5rem;
+  border-radius: 2rem;
+  border: 5px solid var(--black-color);
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  overflow: hidden;
+  width: 300px;
+  left: 39%;
+  top: -600px;
+  
+}
+
+.button__textGit {
+  font-weight: 700;
+}
+
+.button__icon {
+  font-size: 1.5rem;
+}
+
+.button__textGit, 
+.button__icon {
+  position: relative;
+  z-index: 2;
+}
+
+
+/* Reflection shapes */
+.button__reflection-1Git, 
+.button__reflection-2Git {
+  width: 8px;
+  height: 120px;
+  background-color: var(--reflection-color);
+  rotate: 30deg;
+  position: absolute;
+  inset: 0;
+  top: 0;
+  left: -180%;
+  margin: auto;
+  transition: left .6s cubic-bezier(.2, .5, .2, 1.2);
+}
+
+.button__reflection-1Git::after {
+  content: "";
+  width: 26px;
+  height: 100%;
+  background-color: var(--reflection-color);
+  position: absolute;
+  top: -1rem;
+  left: 1.25rem;
+}
+
+.button__reflection-2Git::after {
+  content: "";
+  width: 40px;
+  height: 100%;
+  background-color: var(--reflection-color);
+  position: absolute;
+  top: -1rem;
+  left: .8rem;
+}
+
+/* Moving geometric shapes */
+.buttonGit img {
+  position: absolute;
+  opacity: 0;
+  transition: transform .5s, opacity .5s;
+}
+
+.button__star-1Git {
+  width: 20px;
+  top: -640px;
+  left: 40%;
+  transform: rotate(48deg) scale(.1);
+}
+
+.button__star-2Git {
+  width: 40px;
+  top: -645px;
+  left: 42%;
+  filter: invert(1);
+  transform: rotate(-48deg) scale(.1);
+}
+
+.button__circle-1Git, 
+.button__circle-2Git {
+  width: 8px;
+}
+
+.button__circle-1Git {
+  top: -8px;
+  left: 58px;
+  top: -645px;
+  left: 42%;
+  filter: invert(1);
+  transform: scale(.1);
+}
+
+.button__circle-2Git {
+  right: 34px;
+  bottom: -8px;
+  filter: invert(1);
+  top: -645px;
+  left: 42%;
+  transform: scale(.1);
+}
+
+.button__diamondGit {
+  width: 18px;
+  filter: invert(1);
+  top: -555px;
+  left: 42%;
+  transform: scale(.1);
+}
+
+.button__triangleGit {
+  width: 30px;
+  filter: invert(1);
+  top: -540px;
+  left: 45%;
+  transform: rotate(-48deg) scale(.1);
+}
+
+/* Gradient shadow */
+.button__shadowGit {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: white;
+  padding: 1.25rem 3rem;
+  border-radius: 4rem;
+  border: 3px solid var(--black-color);
+  z-index: -1;
+  transition: transform .3s;
+  width: 300px;
+  left: 39%;
+  top: -600px;
+}
+
+/* View shadow gradient */
+.buttonGit:hover .button__shadowGit {
+  transform: translate(-.5rem, .5rem);
+}
+
+/* Move reflection */
+.buttonGit:hover .button__reflection-1Git {
+  left: 120%;
+}
+
+.buttonGit:hover .button__reflection-2Git {
+  left: -70%;
+}
+
+/* View geometric shapes */
+.buttonGit:hover {
+  transform: rotate(-4deg) scale(1.1);
+}
+
+.buttonGit:hover img {
+  opacity: 1;
+}
+
+.buttonGit:hover .button__star-1Git {
+  transform: scale(1.1);
+  transition-delay: .1s;
+  filter: invert(1)
+}
+
+.buttonGit:hover .button__star-2Git {
+  transform: scale(1.1);
+}
+
+.buttonGit:hover .button__circle-1Git {
+  transform: translateY(-8px) scale(1.1);
+  transition-delay: .1s;
+}
+
+.buttonGit:hover .button__circle-2Git {
+  transform: translate(-20px, 20px) scale(1.1);
+}
+
+.buttonGit:hover .button__diamondGit {
+  transform: translateY(7px) rotate(-24deg) scale(1.1);
+}
+
+.buttonGit:hover .button__triangleGit {
+  transform: rotate(-12deg) scale(1.1);
+}
+
+
+
+
+
+
+
+/* Email Button */
+
+.buttonEm {
+  position: relative;
+  transition: transform .4s;
+  width: 100px;
+}
+
+.button__contentEm {
+  position: relative;
+  background: #66CDAA ;
+  padding: .75rem 0.5rem;
+  border-radius: 2rem;
+  border: 5px solid var(--black-color);
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  overflow: hidden;
+  width: 300px;
+  left: 39%;
+  top: -580px;
+  
+}
+
+.button__textEm {
+  font-weight: 700;
+}
+
+.button__icon {
+  font-size: 1.5rem;
+}
+
+.button__textEm, 
+.button__icon {
+  position: relative;
+  z-index: 2;
+}
+
+
+/* Reflection shapes */
+.button__reflection-1Em, 
+.button__reflection-2Em {
+  width: 8px;
+  height: 120px;
+  background-color: var(--reflection-color);
+  rotate: 30deg;
+  position: absolute;
+  inset: 0;
+  top: 0;
+  left: -180%;
+  margin: auto;
+  transition: left .6s cubic-bezier(.2, .5, .2, 1.2);
+}
+
+.button__reflection-1Em::after {
+  content: "";
+  width: 26px;
+  height: 100%;
+  background-color: var(--reflection-color);
+  position: absolute;
+  top: -1rem;
+  left: 1.25rem;
+}
+
+.button__reflection-2Em::after {
+  content: "";
+  width: 40px;
+  height: 100%;
+  background-color: var(--reflection-color);
+  position: absolute;
+  top: -1rem;
+  left: .8rem;
+}
+
+/* Moving geometric shapes */
+.buttonEm img {
+  position: absolute;
+  opacity: 0;
+  transition: transform .5s, opacity .5s;
+}
+
+.button__star-1Em {
+  width: 20px;
+  top: -640px;
+  left: 40%;
+  transform: rotate(48deg) scale(.1);
+}
+
+.button__star-2Em {
+  width: 40px;
+  top: -645px;
+  left: 42%;
+  filter: invert(1);
+  transform: rotate(-48deg) scale(.1);
+}
+
+.button__circle-1Em, 
+.button__circle-2Em {
+  width: 8px;
+}
+
+.button__circle-1Em {
+  top: -8px;
+  left: 58px;
+  top: -645px;
+  left: 42%;
+  filter: invert(1);
+  transform: scale(.1);
+}
+
+.button__circle-2Em {
+  right: 34px;
+  bottom: -8px;
+  filter: invert(1);
+  top: -645px;
+  left: 42%;
+  transform: scale(.1);
+}
+
+.button__diamondEm {
+  width: 18px;
+  filter: invert(1);
+  top: -555px;
+  left: 42%;
+  transform: scale(.1);
+}
+
+.button__triangleEm {
+  width: 30px;
+  filter: invert(1);
+  top: -540px;
+  left: 45%;
+  transform: rotate(-48deg) scale(.1);
+}
+
+/* Gradient shadow */
+.button__shadowEm {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: white;
+  padding: 1.25rem 3rem;
+  border-radius: 4rem;
+  border: 3px solid var(--black-color);
+  z-index: -1;
+  transition: transform .3s;
+  width: 300px;
+  left: 39%;
+  top: -580px;
+}
+
+/* View shadow gradient */
+.buttonEm:hover .button__shadowEm {
+  transform: translate(-.5rem, .5rem);
+}
+
+/* Move reflection */
+.buttonEm:hover .button__reflection-1Em {
+  left: 120%;
+}
+
+.buttonEm:hover .button__reflection-2Em {
+  left: -70%;
+}
+
+/* View geometric shapes */
+.buttonEm:hover {
+  transform: rotate(-4deg) scale(1.1);
+}
+
+.buttonEm:hover img {
+  opacity: 1;
+}
+
+.buttonEm:hover .button__star-1Em {
+  transform: scale(1.1);
+  transition-delay: .1s;
+  filter: invert(1)
+}
+
+.buttonEm:hover .button__star-2Em {
+  transform: scale(1.1);
+}
+
+.buttonEm:hover .button__circle-1Em{
+  transform: translateY(-8px) scale(1.1);
+  transition-delay: .1s;
+}
+
+.buttonEm:hover .button__circle-2Em {
+  transform: translate(-20px, 20px) scale(1.1);
+}
+
+.buttonEm:hover .button__diamondEm {
+  transform: translateY(7px) rotate(-24deg) scale(1.1);
+}
+
+.buttonEm:hover .button__triangleEm {
+  transform: rotate(-12deg) scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
 /*=============== DROPDOWN SUBMENU ===============*/
 .dropdown__add {
   margin-left: auto;
@@ -651,3 +1307,5 @@ a {
     transition: top .3s;
   }
 }
+
+

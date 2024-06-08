@@ -7,7 +7,7 @@ import Animations from './Animations.js';
 import AboutMe from './AbtMe.js';
 import Projects from './Projects.js';
 import Languages from './Languages.js';
-
+import ContactMe from './ContactMe.js'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -15,7 +15,7 @@ root.render(
     <Animations />
     <AboutMe />
     <Projects />
-    {/* <Languages /> */}
+    <ContactMe />
   </React.StrictMode>
 );
 
